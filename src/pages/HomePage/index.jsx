@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style.css";
-import { Joke } from "./Joke";
+import { Joke } from "../../components/Joke";
+
 
 export const HomePage = () => {
   const [jokes, setJokes] = useState([]);

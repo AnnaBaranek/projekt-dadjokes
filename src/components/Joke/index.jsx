@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./style.css";
 
 export const Joke = ({ userAvatar, userName, text, likes, dislikes }) => {
   const [likeUp, setLikeUp] = useState(likes);
